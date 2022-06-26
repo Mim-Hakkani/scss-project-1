@@ -1,6 +1,6 @@
 # scss-project-1
 
-### Live Link :
+### Live Link : https://scss-simple-project-1.netlify.app/
 
 <br/>
 
