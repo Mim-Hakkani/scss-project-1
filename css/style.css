@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.more {
+  padding: 8px 16px;
+  margin: 5px;
+  background-color: rgb(20, 177, 169);
+  color: #fff;
+  font-weight: 700;
+}
+
+header {
+  background-image: url("/header.gif");
+  height: 60vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav .logo {
+  font-size: 26px;
+  font-family: "UnifrakturMaguntia", cursive;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  display: block;
+  color: rgb(20, 177, 169);
+  margin: 15px;
+  text-decoration: none;
+  border-radius: 2px;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+header .headings {
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+header .headings h1 {
+  line-height: 40px;
+}
+header .headings p {
+  font-size: 16px;
+  line-height: 26px;
+}/*# sourceMappingURL=style.css.map */
