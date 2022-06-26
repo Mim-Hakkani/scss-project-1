@@ -141,17 +141,19 @@ header{
 }
 
 .testimonial-wrapper{
+
     .inner{
         padding: 15px 25px;
-        border: 1px solid red;
+        // border: 1px solid red;
         width: 60%;
         margin: 0 auto;
 
         h2,p{
             text-align: center;
-            // line-height:27px;         
+                
         };
         .flex-box{
+        margin-top: 15px;
                @include flex-property(); 
 
             }
@@ -174,6 +176,47 @@ header{
 
     }
 }
+
+.image-gallery{
+    .heading-imgaes{
+        text-align: center;
+        margin: 20px 0px;
+        
+    }
+
+    .flex-box{
+        @include flex-property()
+    }
+    img{
+        height: 250px;
+        width: 100%;
+    }
+
+
+}
+
+
+
+    .inner-footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    //   gap: 15px;
+
+      .socialmedia{
+        // border: 1px solid red;
+        flex-basis: 250px;
+    
+          span{
+            margin:0px 10px;
+          }
+      }
+
+    }
+
+
+    
+
 
 
 

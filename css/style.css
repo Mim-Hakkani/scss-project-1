@@ -103,7 +103,6 @@ header .headings p {
 
 .testimonial-wrapper .inner {
   padding: 15px 25px;
-  border: 1px solid red;
   width: 60%;
   margin: 0 auto;
 }
@@ -111,6 +110,7 @@ header .headings p {
   text-align: center;
 }
 .testimonial-wrapper .inner .flex-box {
+  margin-top: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -126,4 +126,30 @@ header .headings p {
 }
 .testimonial-wrapper .inner .testimonial h3, .testimonial-wrapper .inner .testimonial h5 {
   text-align: center;
+}
+
+.image-gallery .heading-imgaes {
+  text-align: center;
+  margin: 20px 0px;
+}
+.image-gallery .flex-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.image-gallery img {
+  height: 250px;
+  width: 100%;
+}
+
+.inner-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner-footer .socialmedia {
+  flex-basis: 250px;
+}
+.inner-footer .socialmedia span {
+  margin: 0px 10px;
 }/*# sourceMappingURL=style.css.map */
